@@ -19,7 +19,7 @@ except (ImportError, OSError) as error:
 else:
     ML_IMPORT_ERROR = None
 
-from src.analytics import (
+from analytics import (
     apply_filters,
     build_business_insights,
     calculate_kpis,
@@ -32,7 +32,7 @@ from src.analytics import (
     bookings_by_channel,
     guests_by_country,
 )
-from src.data_loader import load_bookings, load_inventory
+from data_loader import load_bookings, load_inventory
 
 
 BASE_DIR = Path(__file__).resolve().parent
