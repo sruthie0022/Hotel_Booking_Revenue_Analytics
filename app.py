@@ -36,8 +36,8 @@ from data_loader import load_bookings, load_inventory
 
 
 BASE_DIR = Path(__file__).resolve().parent
-BOOKINGS_PATH = BASE_DIR / "data" / "bookings.csv"
-INVENTORY_PATH = BASE_DIR / "data" / "room_inventory.csv"
+BOOKINGS_PATH = BASE_DIR /  "bookings.csv"
+INVENTORY_PATH = BASE_DIR /  "room_inventory.csv"
 
 st.set_page_config(
     page_title="Staywise | Hotel Analytics",
